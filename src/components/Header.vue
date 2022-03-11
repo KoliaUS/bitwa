@@ -1,10 +1,10 @@
 <template>
-    <header class="cs-header p-5">
-        <div class="container">
+    <header class="cs-header p-5 ">
+        <div class="container pt-lg-5 ">
             <div class="row">
                 <div class="col text-center text-white">
                     <h1 class="pt-5">Ceabinic</h1>
-                    <span class="subheading">Personal Blog About Nothing</span>
+                    <span class="subheading">Zpravy</span>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 <template>
     <div class="card">
-        <div class="row">
-            <div class="col-xl-3 col-lg-4">
-                <img :src="image" alt="" class="card-img img-fluid p-1">
-            </div>
+
+
+                <img :src="image" alt="" class="card-img-top">
+
             <div class="col-xl-9 col-lg-8">
                 <div class="card-body">
                     <h4 class="card-title">{{ title }}</h4>
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </template>
 
 <script>
