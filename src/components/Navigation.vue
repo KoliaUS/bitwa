@@ -22,6 +22,12 @@
                             About
                         </router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link px-lg-1 py-3 py-lg-4" to="/new-article">
+                            <em class="bi-plus-circle"/>
+                            NEW
+                        </router-link>
+                    </li>
                 </ul>
             </div>
         </div>
