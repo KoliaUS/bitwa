@@ -12,13 +12,13 @@
                     <input v-model="text" type="text" class="form-label" placeholder="Title"/>
                 </div>
             </div>
-            <div class="row mb-3">
+            <div class="row">
                 <div class="col">
                     <label class="form-label">Text</label>
                     <textarea v-model="text" class="form-control" rows="5"></textarea>
                 </div>
             </div>
-                <div class="mb-3">
+                <div class="row mb-3">
                     <div class ="col">
                     <label class="form-label">Image</label>
                     <input @change="onImage" class="form-control" type="file" id="file">
