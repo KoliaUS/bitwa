@@ -46,4 +46,19 @@ router.get('/:id', (req, res, next) => {
         res.send("Not Found");
     }
 });
+
+router.post('/', (req, res, next) => {
+    const body =req.body;
+    const article ={
+        id:aricles.count,
+        title: body.title,
+        text:body.text,
+        date: new date()
+    }
+    articles.push(article);
+    console.table(aricles);
+    console.debug(body);
+    res.send({});
+    });
+
 module.exports = router;
